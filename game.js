@@ -40,7 +40,7 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score);
         localStorage.setItem('answerLink', answerLink)
         //go to the end page
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
